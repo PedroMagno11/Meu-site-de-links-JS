@@ -26,8 +26,8 @@ const iniciar = () =>{
     setInterval(()=>{
         let num = sorteiaNumero();
         let language = sorteiaLinguagem();
-        state.view.cartoon.src=`/assets/img/cartoons/${num}.png`
-        state.view.language.src=`/assets/img/linguagens/${language}.png`        
+        state.view.cartoon.src=`./assets/img/cartoons/${num}.png`
+        state.view.language.src=`./assets/img/linguagens/${language}.png`        
     },2000);
 }
 
