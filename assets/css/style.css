@@ -1,0 +1,93 @@
+:root{
+    --font-color: #e7e7e7;
+    --background-ide: #272822;
+    --background-code: #0d1117;
+    --border-color: #30363d;
+    --font-code: #f8f8f2;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.bg-page{
+  background: rgb(135,61,160);
+  background: radial-gradient(circle, rgba(135,61,160,1) 0%, rgba(50,11,84,1) 100%);
+}
+
+.bg-ide{
+    background-color: var(--background-ide);
+}
+.bg-code{
+    background-color: var(--background-code);
+}
+.avatares{
+    padding-top: 80px;
+}
+
+.avatar-tech{
+    width: 40px;
+}
+
+.avatar-tech img{
+    width: 100%;
+}
+
+.avatar-eu{
+    width: 140px;
+}
+
+.avatar-eu img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0px 0px 10px #fefefe65;
+}
+
+.link-box{
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    color: #e7e7e7;
+    transition: 0.2s;
+    height: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.link-box:hover{
+    box-shadow: 0 0px 10px #fefefe65;
+    font-size: 1.1rem;
+    background-color: #e7e7e740;
+}
+
+.redes-sociais{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.code{
+    padding: 1em ;
+    margin: 0.5em 0;
+    border-radius: .6rem;
+    gap: 5px;
+    color: var(--font-color);
+  }
+
+.coding{
+    border: 1px solid var(--border-color);
+    border-radius: .6rem;
+    font-family: monospace;
+    color: var(--font-code);
+    background: none;
+}
+/*Parte referente a identação do código na linguagem Go*/
+.parteIdentada{
+    margin-left: 1rem;
+}
